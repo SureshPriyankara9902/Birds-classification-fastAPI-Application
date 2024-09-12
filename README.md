@@ -71,3 +71,15 @@ curl -X 'POST' \
 *Using a browser or HTTP client:*
 Visit http://127.0.0.1:8000/docs to access the Swagger UI for interactive API testing.
 Upload images and view predictions directly from the documentation interface.
+
+
+![Screenshot (269)](https://github.com/user-attachments/assets/5cd9979e-5ac3-4d22-955c-d75bb0b3c9e6)
+![Screenshot (270)](https://github.com/user-attachments/assets/d53e19c0-30c0-4b9b-80de-03906dc1e776)
+![Screenshot (271)](https://github.com/user-attachments/assets/bd9cfb4b-115a-4732-b000-da15d56b83d3)
+![Screenshot (273)](https://github.com/user-attachments/assets/f5132654-0d58-451c-ab9b-43b5ed0f161d)
+
+
+
+
+
+
