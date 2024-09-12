@@ -23,7 +23,7 @@ pip (Python package installer)
 
 *Setup Instructions*
 
-1. git clone <repository_url>
+1. git clone https://github.com/SureshPriyankara9902/Birds-classification-fastAPI-Application.git
 2. cd Birds clasification fastAPI
 3. pip install -r requirements.txt
 4. uvicorn main:app --reload
