@@ -27,7 +27,8 @@ pip (Python package installer)
 2. cd Birds clasification fastAPI
 3. pip install -r requirements.txt
 4. uvicorn main:app --reload
-This will start the FastAPI server, and you can access the API at http://127.0.0.1:8000.
+   
+*This will start the FastAPI server, and you can access the API at http://127.0.0.1:8000.*
 
 *API Endpoints*
 
