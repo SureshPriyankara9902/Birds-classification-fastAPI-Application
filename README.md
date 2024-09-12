@@ -5,9 +5,10 @@ This project is a machine learning web application that uses FastAPI to classify
 *Features*
 
 1. Classify bird species from an image.
-2. Access bird class labels through a GET request.
-3. REST API using FastAPI framework.
-4. Deployed with a pre-trained ResNet-50 model.
+2. calculate the probability of birds speies
+3. Access bird class labels through a GET request.
+4. REST API using FastAPI framework.
+5. Deployed with a pre-trained ResNet-50 model.
 
 *Files Included*
 
