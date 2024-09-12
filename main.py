@@ -64,3 +64,9 @@ def read_root():
 @app.get("/classes/")
 def get_classes():
     return {"classes": classes}
+
+# Main entry point for Render
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 8000))  # Get the port from environment variables, default to 8000 for local
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=port)
