@@ -4,18 +4,17 @@ This project is a machine learning web application that uses FastAPI to classify
 
 *Features*
 
-#Classify bird species from an image.
-#Access bird class labels through a GET request.
-#REST API using FastAPI framework.
-#Deployed with a pre-trained ResNet-50 model.
+1. Classify bird species from an image.
+2. Access bird class labels through a GET request.
+3. REST API using FastAPI framework.
+4. Deployed with a pre-trained ResNet-50 model.
 
 *Files Included*
 
-#main.py: Main application file containing API routes for prediction and class retrieval.
-#trained_model_resnet50.pt: The pre-trained PyTorch model for bird classification.
-#index_to_class_label.json: JSON file mapping class indices to bird species labels.
-#requirements.txt: Python dependencies needed to run the project.
-#classes.json: Contains bird class labels for the model's predictions.
+1. main.py: Main application file containing API routes for prediction and class retrieval.
+2. trained_model_resnet50.pt: The pre-trained PyTorch model for bird classification.
+3. requirements.txt: Python dependencies needed to run the project.
+4. classes.json: Contains bird class labels for the model's predictions.
 
 *Prerequisites*
 
