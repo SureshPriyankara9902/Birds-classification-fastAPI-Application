@@ -4,6 +4,11 @@ This project is a machine learning web application that uses FastAPI to classify
 
 deployed the fastapi application using render : https://birds-classification-wt3j.onrender.com/
 
+![Screenshot (274)](https://github.com/user-attachments/assets/88c549cb-4d3c-446e-bce9-030198d4fc79)
+
+![Screenshot (275)](https://github.com/user-attachments/assets/3097ccda-0e90-48e9-be94-0112a2afb6a7)
+
+
 # Features
 
 1. Classify bird species from an image.
@@ -31,7 +36,11 @@ pip (Python package installer)
 3. pip install -r requirements.txt
 4. uvicorn main:app --reload
    
-*This will start the FastAPI server, and you can access the API at http://127.0.0.1:8000.*
+# This will start the FastAPI server, and you can access the API at http://127.0.0.1:8000.
+
+![Screenshot (278)](https://github.com/user-attachments/assets/90047d12-da62-41ae-8c4d-27e8e5ebfc46)
+
+
 
 # API Endpoints
 
@@ -49,21 +58,32 @@ json
     "probability": 0.95
   }
 }
-![Screenshot (269)](https://github.com/user-attachments/assets/5cd9979e-5ac3-4d22-955c-d75bb0b3c9e6)
 
-# Class Labels Endpoint (GET)
-URL: /classes/
-Method: GET
-Description: Retrieve the list of bird species class labels.
-![Screenshot (270)](https://github.com/user-attachments/assets/d53e19c0-30c0-4b9b-80de-03906dc1e776)
+
+![Screenshot (271)](https://github.com/user-attachments/assets/53c1994c-7571-4dc8-80a7-426f47337757)
+
+
 
 # Read Root (GET)
 curl -X 'GET' \
 'http://127.0.0.1:8000/' \
 -H 'accept: application/json'
 Description: Returns a basic message indicating the API is running.
-![Screenshot (271)](https://github.com/user-attachments/assets/bd9cfb4b-115a-4732-b000-da15d56b83d3)
 
+
+![Screenshot (276)](https://github.com/user-attachments/assets/22520159-2a9a-48d6-b0b0-76af723f8233)
+
+
+# Class Labels Endpoint (GET)
+URL: /classes/
+Method: GET
+Description: Retrieve the list of bird species class labels.
+curl -X 'GET' \
+  'http://127.0.0.1:8000/classes/' \
+  -H 'accept: application/json'
+
+
+  ![Screenshot (277)](https://github.com/user-attachments/assets/4e58de70-315d-4f15-9efd-122bfbfe4d71)
 
 
 *Using a browser or HTTP client:*
