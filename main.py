@@ -16,7 +16,7 @@ def load_class_labels():
 
 # Function to load the model
 def load_model():
-    model = torch.load('trained_model_resnet50.pt', map_location=torch.device('cpu'))
+    model = torch.load('Birds_classify_model.pt', map_location=torch.device('cpu'))
     model.eval()  # Set the model to evaluation mode
     return model
 
