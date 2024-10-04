@@ -1,4 +1,4 @@
-## Bird Classification FastAPI Application
+# Bird Classification FastAPI Application
 
 This project is a machine learning web application that uses FastAPI to classify bird species based on an uploaded image.The API provides endpoints for predicting bird species from an image and retrieving class labels.
 
